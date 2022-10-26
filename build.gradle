@@ -105,6 +105,7 @@ android {
 
 	defaultConfig {
 		minSdkVersion 19
+		//noinspection ExpiringTargetSdkVersion
 		targetSdk 30
 		versionCode computeVersionNumber()
 		versionName computeVersionName()
